@@ -1,0 +1,10 @@
+.header-top-logo a {
+    font-size: 26px;
+    color: #242424;
+    font-weight: 700;
+    line-height: 1.7;
+}
+
+.header-top-logo a span {
+    color: #c80202;
+}

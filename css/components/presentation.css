@@ -1,0 +1,61 @@
+.presentation {
+    background-image: url(../../img/bgs/header-background.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding: 180px 0 365px 0;
+}
+
+.presentation h1 {
+    font-size: 40px;
+    line-height: 1.3;
+    color: #282828;
+    font-weight: 700;
+}
+
+.presentation p {
+    font-size: 16px;
+    line-height: 1.2;
+    color: #000;
+    margin-top: 20px;
+}
+
+.presentation .col-md-6 {
+    padding-left: 37px;
+}
+
+.presentation-content {
+    max-width: 400px;
+}
+
+.presentation .btn-lg {
+   margin-right: 10px;
+}
+
+.presentation .btn-lg:last-child {
+    background-color: #282828;
+}
+
+.presentation .btn-lg:last-child:hover {
+    background-color: #171717;
+}
+
+.presentation .btn-group {
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+  .presentation .btn-lg {
+   margin-right: 8px;
+}
+}
+
+@media screen and (max-width: 768px) {
+    .presentation {
+        padding: 180px 0 100px 0;
+    }
+
+    .presentation .btn-lg {
+        margin-bottom: 30px;
+    }
+}

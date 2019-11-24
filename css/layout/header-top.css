@@ -1,0 +1,72 @@
+.header-top {
+    position: relative;
+    padding: 24px 0 48px;
+}
+
+.header-top-contacts {
+    background: transparent;
+}
+
+.header-top-contacts a {
+    display: block;
+}
+
+.header-top-item {
+    padding: 5px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    line-height: 1.35;
+    font-size: 14px;
+    font-weight: 300;
+    color: #1d1d1d;
+}
+
+.header-top-slogan {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.header-top-phone,
+.header-top-adress {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.header-top-adress {
+    font-weight: 400;
+}
+
+.header-top-phone span {
+    color: rgb(44,44,44);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.header-top-contacts img {
+    width: 28px;
+    height: 27px;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+.phone,
+.adress {
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .header-top-item {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+}

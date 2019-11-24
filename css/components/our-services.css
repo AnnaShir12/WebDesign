@@ -1,0 +1,113 @@
+.our-services {
+    text-align: center;
+    background-image: url(../../img/bgs/serv-bg-new.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 66px 0 60px 0;
+}
+
+.our-services h3 {
+    margin-bottom: 60px;
+}
+
+.service-item {
+    cursor: pointer;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+
+.our-services img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    -o-object-fit: cover;
+    object-fit: cover;
+
+}
+
+.service-img {
+    position: relative;
+    max-width: 370px;
+    height: 289px;
+    -webkit-box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.58);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.58);
+    margin: 0 auto 20px auto;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.service-img-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 371px;
+    background-color: #252525;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    color: #efefef;
+    padding: 30px;
+    border-bottom: 4px solid #e60000;
+    opacity: 0;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+
+}
+
+.service-img-hover p {
+    font-size: 14px;
+    line-height: 1.4;
+    display: block;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.service-img-hover:hover {
+    opacity: 0.83;
+}
+
+.service-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2d2d2d;
+
+}
+
+@media screen and (max-width: 1200px) {
+    .our-services img {
+        margin: 0 auto;
+    }
+
+    .service-img-hover {
+        top: 0;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .our-services .row {
+        margin-bottom: 0;
+    }
+
+    .our-services.section {
+        padding: 60px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .service-img {
+        max-width: 371px;
+        height: 289px;
+    }
+
+    .service-img-hover {
+        max-width: 371px;
+    }
+
+    .service-item {
+        margin-bottom: 50px;
+    }
+}

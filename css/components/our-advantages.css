@@ -1,0 +1,100 @@
+.our-advantages {
+   background: url(../../img/bgs/advantagas-bg.jpg);
+   background-repeat: no-repeat;
+   background-position: top 74% center;
+   background-size: cover;
+   text-align: center;
+   position: relative;
+   padding: 60px 0 107px 0;
+}
+.our-advantages::before{
+   content: '';
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   background-color: #111111;
+   opacity: 0.62;
+}
+
+.our-advantages h3{
+   color: #fff;
+   margin-bottom: 39px;
+}
+.our-advantages h3::before{
+   background: #fff;
+}
+.advantages-description{
+   max-width: 660px;
+   margin: 0 auto 60px auto;
+   color: #e6e6e6;
+   position: relative;
+    
+}
+.advantage-items-wrap{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.advantage-item{
+   max-width: 220px;
+   position: relative;
+}
+.advantage-icon{
+   width: 110px;
+   height: 110px;
+   background: transparent;
+   border-radius: 50%;
+   border: 3px solid #fff;
+   margin: 0 auto 15px auto;
+   position: relative;
+
+}
+.advantage-icon img{
+   
+   width: auto;
+   height: auto;
+   min-height: 50px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+}
+.advantage-title{
+   color:  #fff;
+   font-size: 16px;
+   line-height: 1.2;
+   font-weight: 600;
+   margin-bottom: 15px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.advantage-description{
+   font-size: 14px;
+   line-height: 1.4;
+   color: #f0f0f0;
+   
+}
+@media screen and (max-width: 768px){
+    .advantage-items-wrap{
+    -webkit-box-orient: vertical;
+     -webkit-box-direction: normal;
+     -ms-flex-direction: column;
+     flex-direction: column;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+    }
+   .advantage-item{
+      margin-bottom: 30px;
+   }
+}
